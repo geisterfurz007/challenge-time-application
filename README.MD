@@ -25,7 +25,9 @@ yarn start
 
 ## Requirements
 
-The project requires a MariaDB database for storage. The configuration of the database can be done in `src/config/index.js` under the key `orm`.
+The project requires a Node version >= 13 because of module support (see https://stackoverflow.com/a/45854500/6707985).
+
+The project further requires a MariaDB database for storage. The configuration of the database can be done in `src/config/index.js` under the key `orm`.
 
 ## Example setup
 
