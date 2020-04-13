@@ -29,12 +29,15 @@ The project requires a MariaDB database for storage. The configuration of the da
 
 ## Example setup
 
-To add dummy data into the database you can use this snippet (Note: This will clear all cars and users before adding the dummy data!):
+To add dummy data into the database you can use the following snippet.
+Place it in a file called `exampleSetup.js` in the `src` folder and call it using `node src/exampleSetup.js`.
+
+Note: This will clear all cars and users before adding the dummy data!
 
 ```js
 import pbfdk from "pbkdf2";
-import { Car, User, instance } from "../orm/index.js";
-import config from "../config/index.js";
+import { Car, User, instance } from "./orm/index.js";
+import config from "./config/index.js";
 import crypto from "crypto";
 
 const cars = [
