@@ -3,6 +3,13 @@
 This project was written as part of an application to [ChallengeTime](https://challengetime.com).  
 It contains a Node.JS Express based REST-API for a carshop to allow users to search cars as well as admins to add, edit and delete them.
 
+## Table of contents
+
+1. [Run](#run)
+2. [Requirements](#requirements)
+3. [Example setup](#example-setup)
+4. [Documentation](#documentation)
+
 ## Run
 
 To run the project first clone it:
