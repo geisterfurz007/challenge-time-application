@@ -1,0 +1,24 @@
+{
+  "name": "challenge-time-application",
+  "version": "1.0.0",
+  "description": "Car shop API for the ChallengeTime coding test",
+  "main": "src/index.js",
+  "repository": "https://github.com/geisterfurz007/challenge-time-application.git",
+  "author": "Michel v.V.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jose": "^1.25.0",
+    "mariadb": "^2.3.1",
+    "pbkdf2": "^3.0.17",
+    "sequelize": "^5.21.6"
+  },
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
